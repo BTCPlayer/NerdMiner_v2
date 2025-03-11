@@ -26,7 +26,7 @@ Before running `cou_screen.py`, please ensure that Python is installed in your e
 ## Notes
 - The `src/media/` folder contains model files adapted for different resolution hardware. The file suffix indicates the screen resolution.
 
-After localizing the images, `image_to_header.py` performs the reverse operation, converting the PNG files back into the corresponding `.h` files. 使用说明
+After localizing the images, `image_to_header.py` performs the reverse operation, converting the PNG files back into the corresponding `.h` files.
 
 ## 简介
 本说明文档介绍了如何使用 `cou_screen.py` 程序来解开 `src/media/` 文件夹下 `.h` 文件中的取模图片，并将解开的图片放到 `img` 文件夹下。程序在img文件夹下。
@@ -54,4 +54,4 @@ After localizing the images, `image_to_header.py` performs the reverse operation
 ## 注意事项
 -  `src/media/` 会有适配不同分辨率硬件的模型文件。文件后缀为屏幕的分辨率。
 
-后续汉化图片后，image_to_header.py是反向操作，即把png文件转换成对应的.h文件
+后续汉化图片后，image_to_header.py是反向操作，即把png文件转换成对应的.h文件。另外注意文件名必须不能变。程序bug稍后修改。
